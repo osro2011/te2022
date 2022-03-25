@@ -1,0 +1,35 @@
+// Title font, Bauer Bodoni
+@font-face {
+    font-family: 'Bauer Bodoni'; 
+
+    src: url('../fonts/BauerBodoniStd-Roman.otf') format('opentype'); 
+
+    font-weight: normal; 
+
+    font-style: normal; 
+
+}
+
+@font-face {
+    font-family: 'Futura'; 
+
+    src: url('') format(''); 
+
+    font-weight: normal; 
+
+    font-style: normal; 
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bauer Bodoni'; 
+
+}
+
+.tk-futura-pt {
+    font-family:"futura-pt", sans-serif 
+}
+
+.tk-bodoni-urw {
+    font-family:"bodoni-urw", serif
+}

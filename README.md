@@ -25,6 +25,16 @@ Skapa en design
 Implementera designen  
 Snacka med tobias om betyg och vilka kunskapskrav som behöver uppnås för högre betyg
 
+## The plan
+ 
+Innehåll:  
+    Nav: Responsiv med borgir  
+    Information  
+    Bilder  
+    Kursplan  
+    Länk för intresseanmälan  
+    
+
 ## Info:
 
 "watma blue" #221c41  
