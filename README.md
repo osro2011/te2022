@@ -1,12 +1,33 @@
-<!-- \ = Newline, # = Titel-->
+<!-- 
+\ (alt "  ") = Newline
+# = h1
+## = h2
+> = Citat
+>> = Dubbelcitat
+* = Italic
+** = Bold
+*** = Italic bold
+1. = ol
+- = ul
+"    " = codeblock
+`` = inline code
+![alt](url) = img
+[text](url "title") = link
+<url/email> = linked
 
-# TODO:
-Läs grafisk manual kanske \
-Skapa en design \
-Implementera designen
+https://www.markdownguide.org/basic-syntax/
+-->
 
-# Info:
-"watma blue" #221c41 \
-"contrast yellow" #ffda29 \
-intresseanmälan: https://kalmar.laroverken.se/bli-elev/intresseanmalan/ \
+## TODO:
+
+Läs grafisk manual kanske  
+Skapa en design  
+Implementera designen  
+Snacka med tobias om betyg och vilka kunskapskrav som behöver uppnås för högre betyg
+
+## Info:
+
+"watma blue" #221c41  
+"contrast yellow" #ffda29  
+intresseanmälan: https://kalmar.laroverken.se/bli-elev/intresseanmalan/  
 bassida: https://kalmar.laroverken.se/program/teknik/
