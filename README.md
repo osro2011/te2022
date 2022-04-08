@@ -20,10 +20,12 @@ https://www.markdownguide.org/basic-syntax/
 
 ## TODO:
 
-Läs grafisk manual kanske  
-Skapa en design  
-Implementera designen  
-Snacka med tobias om betyg och vilka kunskapskrav som behöver uppnås för högre betyg
+- [] Läs grafisk manual kanske  
+- [x] Skapa en design  
+- [] Implementera designen  
+- [] Snacka med tobias om betyg och vilka kunskapskrav som behöver uppnås för högre betyg
+- [] Kontrollera synproblem och färgblindhet
+- [] Fixa gruppering i poängtabellen
 
 ## The plan
  
@@ -32,7 +34,7 @@ Innehåll:
     Information  
     Bilder  
     Kursplan  
-    Länk för intresseanmälan  
+    Länk för intresseanmälan  <-- Nej
     
 
 ## Info:
