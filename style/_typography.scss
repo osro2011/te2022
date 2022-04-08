@@ -1,35 +1,41 @@
-// Title font, Bauer Bodoni
+//Main font, futura
 @font-face {
-    font-family: 'Bauer Bodoni'; 
+    font-family: 'futura'; 
+    src: url('../fonts/futura_bold.otf') format('opentype'), url('../fonts/futura_bold.woff') format('woff'), url('../fonts/futura_bold.woff2') format('woff2'); 
+    font-display:swap; 
+    font-style:normal; 
+    font-weight:700; 
+    font-stretch:normal
+ }
 
-    src: url('../fonts/BauerBodoniStd-Roman.otf') format('opentype'); 
-
-    font-weight: normal; 
-
-    font-style: normal; 
-
+@font-face {
+    font-family: 'futura';
+    src: url('../fonts/futura.otf') format('opentype'), url('../fonts/futura.woff') format('woff'), url('../fonts/futura.woff2') format('woff2');
+    font-display:swap; 
+    font-style:normal; 
+    font-weight:400; 
+    font-stretch:normal
 }
 
 @font-face {
-    font-family: 'Futura'; 
+    font-family: 'futura';
+    src: url('../fonts/futura_italic.otf') format('opentype'), url('../fonts/futura_italic.woff') format('woff'), url('../fonts/futura_italic.woff2') format('woff2');
+    font-display:swap; 
+    font-style:italic; 
+    font-weight:400; 
+    font-stretch:normal
+}
 
-    src: url('') format(''); 
-
-    font-weight: normal; 
-
-    font-style: normal; 
-
+// Title font, Bodoni
+@font-face {
+    font-family: 'bodoni';
+    src: url('../fonts/bodoni.otf') format('opentype'), url('../fonts/bodoni.woff') format('woff'), url('../fonts/bodoni.woff2') format('woff2'); 
+    font-display:swap; 
+    font-style:normal; 
+    font-weight:400; 
+    font-stretch:normal
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Bauer Bodoni'; 
-
-}
-
-.tk-futura-pt {
-    font-family:"futura-pt", sans-serif 
-}
-
-.tk-bodoni-urw {
-    font-family:"bodoni-urw", serif
+    font-family: 'bodoni'; 
 }
