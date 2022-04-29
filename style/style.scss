@@ -1,1 +1,18 @@
 @import "colors", "resets", "typography";
+
+.table--vertical {
+    &-line {
+        border-right: 1px solid black;
+    }
+
+    &-text {
+        writing-mode: vertical-lr;
+        width: 1.2rem;
+    }
+}
+
+.table--horizontal {
+    &-line {
+        border-bottom: 1px solid black;
+    }
+}
