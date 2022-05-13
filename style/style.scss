@@ -67,6 +67,12 @@ nav ul {
     text-align: left;
 }
 
+.hero__banner {
+    height: 80vh;
+    width: 100%;
+    background-image: url("/produktmapp/image/mattematik.jpg");
+}
+
 .links:hover .drop-content {
     display: block;
     animation: growDown 300ms ease-in-out forwards;
