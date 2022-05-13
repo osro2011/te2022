@@ -7,6 +7,9 @@
     scroll-behavior: smooth;
 }
 
+body {
+}
+
 header {
     display: flex;
     flex-flow: column;
@@ -79,19 +82,45 @@ nav ul {
     transform: translateY(0);
 }
 
-.table--vertical {
-    &-line {
-        border-right: 1px solid black;
+.table {
+    background-color: rgba(255, 255, 255, 0.5);
+    float: right;
+    padding: 1rem;
+    margin-right: 10rem;
+    border-radius: 0.2rem;
+
+    /* Animera in uppifrån */
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateY(40%);
+
+    th {
+        text-align: left;
     }
 
-    &-text {
-        writing-mode: vertical-lr;
-        width: 1.2rem;
+    td {
     }
-}
 
-.table--horizontal {
-    &-line {
-        border-bottom: 1px solid black;
+    .table--vertical {
+        &-line {
+            border-right: 1px solid black;
+        }
+    
+        &-text {
+            writing-mode: vertical-lr;
+            width: 1.2rem;
+        }
     }
+    
+    .table--horizontal {
+        &-line {
+            border-bottom: 1px solid black;
+        }
+    }
+
+    .table--spacer {
+        padding-top: 0.5rem;
+    }
+
 }
