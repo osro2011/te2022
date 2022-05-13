@@ -80,7 +80,14 @@ nav ul {
     background-color: rgba(255, 255, 255, 0.5);
     float: right;
     padding: 1rem;
+    margin-right: 10rem;
     border-radius: 0.2rem;
+
+    /* Animera in uppifrån */
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateY(40%);
 
     th {
         text-align: left;
