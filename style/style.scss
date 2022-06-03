@@ -7,17 +7,16 @@
     scroll-behavior: smooth;
 }
 
-body {
-}
-
 header {
     display: flex;
+    position: fixed;
     flex-flow: column;
     justify-content: space-between;
     align-items: center;
     transition: 0.6s;
     z-index: 2;
     background-color: rgb(256,256,256);
+    width: 100%;
 }
 
 nav {
@@ -71,7 +70,9 @@ nav ul {
 }
 
 .hero__banner {
-    height: 80vh;
+    display: flex;
+    text-align: center;
+    height: 90vh;
     width: 100%;
     background-image: url("/produktmapp/image/mattematik.jpg");
 }
@@ -82,8 +83,25 @@ nav ul {
     transform: translateY(0);
 }
 
+.title__wrapper {
+    margin: auto auto auto 10%;
+    background-color: rgba(0,0,0,.65);
+}
+
+.hero__title {
+    font-size: 8.5rem;
+    color: white;
+}
+
+.hero__subtitle {
+    color: white;
+    font-weight: lighter;
+    font-size: 2rem;
+    margin: 1em;
+}
+
 .table {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.9);
     float: right;
     padding: 1rem;
     margin-right: 10rem;
@@ -123,4 +141,51 @@ nav ul {
         padding-top: 0.5rem;
     }
 
+}
+
+.dina__ar {
+    background-image: linear-gradient(rgb(22,87,93), rgb(34,28,65));
+    //background-color: rgb(34, 28, 65);
+    color: white;
+}
+
+.dina__ar__wrapper {
+    display: flex;
+    flex-flow: row;
+}
+
+.dina__ar__titel {
+    margin-left: 1.5%;
+    font-size: 3.5em;
+}
+
+.dina__ar__wrapper div {
+    max-width: 20%;
+    margin: 1.5%;
+}
+
+.dina__ar__wrapper div h2{
+    font-family: 'bodoni';
+}
+
+.dina__ar__wrapper div p {
+    font-family: 'futura';
+    font-size: 1.2em;
+}
+
+@media screen and(max-width: 1650px) {
+    .title__wrapper {
+        margin: auto;
+    }
+    .tablecontainer {
+        display: none;
+    }
+    .dina__ar__titel {
+        font-size: 2.5em;
+        text-align: center;
+    }
+    .dina__ar__wrapper {
+        flex-flow: column;
+        align-items: center;
+    }
 }
