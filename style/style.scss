@@ -159,34 +159,34 @@ nav ul {
 
 }
 
-.dina__ar {
-    background-image: linear-gradient(rgb(22,87,93), rgb(34,28,65));
+.dinaar {
+    // background-image: linear-gradient(rgb(22,87,93), rgb(34,28,65));
     //background-color: rgb(34, 28, 65);
-    color: white;
-}
+    // color: white;
+    margin: 2rem;
 
-.dina__ar__wrapper {
-    display: flex;
-    flex-flow: row;
-}
+    h2 {
+        margin: 1rem 0 0 1rem;
+        font-size: 2.5rem;
+    }
 
-.dina__ar__titel {
-    margin-left: 1.5%;
-    font-size: 3.5em;
-}
+    h3 {
+        font-size: 1.8rem;
+    }
+    
+    &__wrapper {
+        display: flex;
+        flex-flow: row;
 
-.dina__ar__wrapper div {
-    max-width: 20%;
-    margin: 1.5%;
-}
+        div {
+            max-width: 20%;
+            margin: 1rem;
+        }
 
-.dina__ar__wrapper div h2{
-    font-family: 'bodoni';
-}
-
-.dina__ar__wrapper div p {
-    font-family: 'futura';
-    font-size: 1.2em;
+        p {
+            font-size: 1.2em;
+        }
+    }
 }
 
 @media screen and(max-width: 1650px) {
@@ -205,6 +205,7 @@ nav ul {
         align-items: center;
     }
 }
+
 .footer 
 {
     color: white;
