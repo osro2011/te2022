@@ -192,6 +192,36 @@ section {
     }
 }
 
+.studier {
+    height: 100vh;
+    width: 100vw;
+}
+
+.col {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+}
+
+.col-textholder {
+    width: 50%;
+    margin: auto 5% auto 5%;
+}
+
+.studier-bild {
+    width: 50vw;
+}
+
+.studier-header {
+    font-size: 3em;
+}
+
+.studier-text {
+    font-size: 1.1em;
+    word-break: break-all;
+}
+
 .larare {
     margin: 2rem;
 
