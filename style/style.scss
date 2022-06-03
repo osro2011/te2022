@@ -172,22 +172,14 @@ section {
     img {
         max-width: 100%;
     }
-
-    h3 {
-        font-size: 1.8rem;
-    }
     
     &__wrapper {
         display: flex;
         flex-flow: row;
 
         div {
-            max-width: 40%;
+            max-width: 20%;
             margin: 1rem;
-        }
-
-        p {
-            font-size: 1.2em;
         }
     }
 }
@@ -241,16 +233,30 @@ section {
     &__wrapper {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
         
         div {
             margin: 1rem;
+            width: 20%;
 
             img {
-                max-width: 8vw;
+                width: 100%;
             }
         }
     }
 
+}
+
+@media screen and(max-width: 1000px) {
+    .larare__wrapper div {
+        width: 40%
+    }
+}
+
+@media screen and(max-width: 650px) {
+    .larare__wrapper div {
+        width: 80%
+    }
 }
 
 @media screen and(max-width: 1650px) {
