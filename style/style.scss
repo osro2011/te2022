@@ -209,9 +209,23 @@ nav ul {
 {
     color: white;
     background-color: $watma-blue;
+    font-family: 'futura';
+    font-weight: 400;
+    font-size: large;
+
+    h5 {
+        font-size: large;
+        font-weight: 700;
+    }
+
+    &__top {
+        display: flex;
+        align-items: flex-start;
+    }
     
     &__container {
         display: inline-block;
+        padding: 6rem;
     }
     
     &__logo {
@@ -222,6 +236,15 @@ nav ul {
         img {
             width: 150px;
         }
+    }
+
+    &__shortcuts {
+        display: flex;
+        flex-flow: column;
+    }
+
+    &__shortcuts>* {
+        margin: 0.3rem;
     }
 
     a {
