@@ -274,7 +274,29 @@ section {
     .dinaar__wrapper div{
         max-width: 80%;
     }
+    .col:first-of-type {
+        flex-flow: column;
+    }
+    .col:last-of-type {
+        flex-flow: column-reverse;
+    }
 
+    .col {
+        height: 0%;
+        align-items: center;
+    }
+
+    .studier {
+        height: 0%;
+    }
+
+    .studier-bild {
+        margin: 3%;
+    }
+
+    .col-textholderwrapper {
+        width: 80%;
+    }
 }
 
 @media screen and(max-width: 500px) {
@@ -287,6 +309,14 @@ section {
     .dinaar__wrapper p {
         font-size: 0.9em;
     }
+    .studier-header {
+        font-size: 2em;
+        text-align: center;
+    }
+    .col-textholderwrapper {
+        width: 100%;
+    }
+
 }
 
 .footer 
