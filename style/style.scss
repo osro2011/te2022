@@ -182,7 +182,7 @@ section {
         flex-flow: row;
 
         div {
-            max-width: 20%;
+            max-width: 40%;
             margin: 1rem;
         }
 
@@ -260,13 +260,32 @@ section {
     .tablecontainer {
         display: none;
     }
-    .dina__ar__titel {
+    .dinaar__titel {
         font-size: 2.5em;
         text-align: center;
     }
-    .dina__ar__wrapper {
+    .dinaar__wrapper {
         flex-flow: column;
         align-items: center;
+    }
+}
+
+@media screen and(max-width: 975px) {
+    .dinaar__wrapper div{
+        max-width: 80%;
+    }
+
+}
+
+@media screen and(max-width: 500px) {
+    .dinaar__titel {
+        font-size: 1.8em;
+    }
+    .dinaar__wrapper div{
+        max-width: 100%;
+    }
+    .dinaar__wrapper p {
+        font-size: 0.9em;
     }
 }
 
