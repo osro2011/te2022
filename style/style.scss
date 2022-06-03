@@ -159,16 +159,19 @@ nav ul {
 
 }
 
-.dinaar {
-    // background-image: linear-gradient(rgb(22,87,93), rgb(34,28,65));
-    //background-color: rgb(34, 28, 65);
-    // color: white;
-    margin: 2rem;
-
+section {
     h2 {
         margin: 1rem 0 0 1rem;
         font-size: 2.5rem;
     }
+}
+
+.dinaar {
+    margin: 2rem;
+    // background-image: linear-gradient(rgb(22,87,93), rgb(34,28,65));
+    //background-color: rgb(34, 28, 65);
+    // color: white;
+
 
     h3 {
         font-size: 1.8rem;
@@ -187,6 +190,24 @@ nav ul {
             font-size: 1.2em;
         }
     }
+}
+
+.larare {
+    margin: 2rem;
+
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        
+        div {
+            margin: 1rem;
+            
+            img {
+                max-width: 8vw;
+            }
+        }
+    }
+
 }
 
 @media screen and(max-width: 1650px) {
