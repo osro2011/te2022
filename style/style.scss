@@ -247,17 +247,58 @@ section {
 
 }
 
-@media screen and(max-width: 1000px) {
-    .larare__wrapper div {
-        width: 40%
+
+.footer 
+{
+    color: white;
+    background-color: $watma-blue;
+    font-family: 'futura';
+    font-weight: 400;
+    font-size: large;
+
+    h5 {
+        font-size: large;
+        font-weight: 700;
+    }
+
+    &__top {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    &__container {
+        display: inline-block;
+        padding: 6rem;
+    }
+    
+    &__logo {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        
+        img {
+            width: 150px;
+        }
+    }
+
+    &__shortcuts {
+        display: flex;
+        flex-flow: column;
+    }
+
+    &__shortcuts>* {
+        margin: 0.3rem;
+    }
+
+    a {
+        color: white;
     }
 }
 
-@media screen and(max-width: 650px) {
-    .larare__wrapper div {
-        width: 80%
-    }
+.hidden {
+    display: none;
 }
+
 
 @media screen and(max-width: 1650px) {
     .title__wrapper {
@@ -303,9 +344,31 @@ section {
     .col-textholderwrapper {
         width: 80%;
     }
+
+    .larare__wrapper div {
+        width: 40%
+    }
+
+    .footer__top {
+        flex-flow: column-reverse;
+        align-items: center;
+    }
+
+    .footer__container {
+        padding: 1rem;
+    }
+}
+
+@media screen and(max-width: 650px) {
+    .larare__wrapper div {
+        width: 80%
+    }
 }
 
 @media screen and(max-width: 500px) {
+    .hero__title {
+        font-size: 7rem;
+    }
     .dinaar__titel {
         font-size: 1.8em;
     }
@@ -322,56 +385,4 @@ section {
     .col-textholderwrapper {
         width: 100%;
     }
-
-}
-
-.footer 
-{
-    color: white;
-    background-color: $watma-blue;
-    font-family: 'futura';
-    font-weight: 400;
-    font-size: large;
-
-    h5 {
-        font-size: large;
-        font-weight: 700;
-    }
-
-    &__top {
-        display: flex;
-        align-items: flex-start;
-    }
-    
-    &__container {
-        display: inline-block;
-        padding: 6rem;
-    }
-    
-    &__logo {
-        display: flex;
-        flex-flow: column;
-        align-items: center;
-        
-        img {
-            width: 150px;
-        }
-    }
-
-    &__shortcuts {
-        display: flex;
-        flex-flow: column;
-    }
-
-    &__shortcuts>* {
-        margin: 0.3rem;
-    }
-
-    a {
-        color: white;
-    }
-}
-
-.hidden {
-    display: none;
 }
