@@ -113,7 +113,7 @@ nav ul {
     color: white;
     font-weight: lighter;
     font-size: 2rem;
-    margin: 1em;
+    margin: 1rem;
 }
 
 .table {
@@ -219,11 +219,11 @@ section {
 }
 
 .studier-header {
-    font-size: 3em;
+    font-size: 3rem;
 }
 
 .studier-text {
-    font-size: 1.1em;
+    font-size: 1.1rem;
     // word-break: break-all;
 }
 
@@ -290,8 +290,9 @@ section {
         margin: 0.3rem;
     }
 
-    a {
+    a, p {
         color: white;
+        font-size: 1rem;
     }
 }
 
@@ -308,12 +309,15 @@ section {
         display: none;
     }
     .dinaar__titel {
-        font-size: 2.5em;
+        font-size: 2.5rem;
         text-align: center;
     }
     .dinaar__wrapper {
         flex-flow: column;
         align-items: center;
+    }
+    .dinaar__wrapper div {
+        max-width: 50%;
     }
 }
 
@@ -370,16 +374,16 @@ section {
         font-size: 7rem;
     }
     .dinaar__titel {
-        font-size: 1.8em;
+        font-size: 1.8rem;
     }
     .dinaar__wrapper div{
         max-width: 100%;
     }
     .dinaar__wrapper p {
-        font-size: 0.9em;
+        font-size: 1.1rem;
     }
     .studier-header {
-        font-size: 2em;
+        font-size: 2rem;
         text-align: center;
     }
     .col-textholderwrapper {
