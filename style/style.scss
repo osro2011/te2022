@@ -7,6 +7,8 @@
     scroll-behavior: smooth;
 }
 
+// nav
+
 header {
     display: flex;
     position: fixed;
@@ -98,12 +100,10 @@ nav {
 
 nav ul {
     list-style: none;
-    // overflow: hidden;
     display: flex;
     align-items: center;
     li {
         height: auto;
-        // display: flex;
     }
 }
 
@@ -111,6 +111,10 @@ nav ul {
     display: flex;
     justify-content: center;
     position: relative;
+}
+
+.links a:hover {
+    cursor: pointer;
 }
 
 .container {
@@ -126,15 +130,13 @@ nav ul {
     font-size: 20px;
     text-decoration: none;
     color: black;
-
     padding: 1.8rem;
 }
 
 .drop-content {
     display: none;
     position: absolute;
-    right: 110%;
-    top: 0;
+    top: 100%;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -148,6 +150,14 @@ nav ul {
     display: block;
     text-align: left;
 }
+
+.isOpen {
+    display: inline-block;
+}
+
+// nav
+
+// hero section
 
 .hero__banner {
     display: flex;
@@ -179,6 +189,10 @@ nav ul {
     font-size: 2rem;
     margin: 1rem;
 }
+
+// hero section
+
+// tabell
 
 .table {
     background-color: rgba(255, 255, 255, 0.9);
@@ -220,12 +234,16 @@ nav ul {
 
 }
 
+// tabell
+
 section {
     h2 {
         margin: 1rem 0 0 1rem;
         font-size: 2.5rem;
     }
 }
+
+// dina år
 
 .dinaar {
     margin: 2rem;
@@ -247,6 +265,10 @@ section {
         }
     }
 }
+
+// dina år
+
+// studier
 
 .studier {
     height: 100vh;
@@ -291,6 +313,10 @@ section {
     // word-break: break-all;
 }
 
+// studier
+
+// lärare
+
 .larare {
     margin: 2rem;
 
@@ -311,6 +337,9 @@ section {
 
 }
 
+//lärare
+
+// footer
 
 .footer 
 {
@@ -360,10 +389,13 @@ section {
     }
 }
 
+// footer
+
 .hidden {
     display: none;
 }
 
+// media screen
 
 @media screen and(max-width: 1650px) {
     .title__wrapper {
